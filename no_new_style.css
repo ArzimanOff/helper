@@ -1,0 +1,82 @@
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    user-select: none;
+    -moz-user-select: none;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+
+    margin: 0 auto;
+    
+    background: #ffffff;
+    overflow-y: hidden;
+    /*overflow-x: hidden;*/
+}
+a{
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+
+    margin: 0 auto;
+}
+
+.content_part_bg{
+    background: #F8F8F8;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
+}
+.main_content{
+    margin: 0 auto;
+    width: 50vw;
+    height: 50vh;
+    background-image: url(media/programming-crazy.gif);
+    background-position: center;
+    background-size: cover;
+}
+
+.no_text{
+    width: fit-content;
+    font-size: larger;
+    font-weight: 300;
+    margin: 50px auto;
+}
+
+
+.footer{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: end;
+}
+
+.just_btn{
+    height: fit-content;
+    border-radius: 15px;
+    padding: 15px 40px;
+    margin: 0 0 0 15px;
+    font-size: 20px;
+    color: black;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
